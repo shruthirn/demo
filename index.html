@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+    <head>
+        <title>intro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .main{
+                alignment-adjust: central;display: block;margin:auto;width: 500px;
+            }
+            textarea{
+                resize:vertical;
+            }
+            .f1{
+                background-color:background;width:600px;margin: auto;margin-top:100px;
+            }
+            .com{
+                font-style:italic;
+                color:azure;
+                margin-right: 10px;}
+            .d2{
+                margin:auto;width:500px;text-align: center;
+            }
+            .d3{
+                margin:auto;margin-left: 150px;text-align: center;
+            }
+            .hh2{
+                text-align: center;margin:0 auto;
+            }
+            .b1{background-color: gray;}
+            .hh1{
+                font-style: italic;font-family: fantasy;color: crimson;font-size: 30px;
+            }
+        </style>
+    </head>
+    <body class="b1">
+        <div class="d3">
+            <marquee> <p class="hh1"> Welcome !!!</p></marquee>
+        </div>
+        <form class="f1">
+            <div class="main">
+                <fieldset style="alignment-adjust: central">
+                    <legend>Register Here</legend>
+                    <h2 class="hh2">Welcome To My HTML Site</h2> <br/>
+                    <div class="d2">
+                        <label for="t1" class="com"> Name</label>
+                        <input type="text" id="t1" name="tn1"/><br/>
+                        <label for="t6" class="com"> Gender</label>
+                        <input id="t6" type="radio" name="sex" value="male">Male
+                        <input type="radio" name="sex" value="female">Female<br/>
+                        <label for="t3" class="com"> E-mail</label>
+                        <input type="text" id="t3" name="tn3"/><br/> <br/>
+                        <label for="t4" class="com"> Select City</label>              
+                        <select id="t4">
+                            <option value="hubli">Hubli</option>
+                            <option value="Bangalore">Bangalore</option>
+                            <option value="Mangalore">Mangalore</option>
+                            <option value="Delhi">Delhi</option>
+                        </select> <br/> <br/> 
+                        <label for="t9">My choice</label>
+                        <input id="t9" type="checkbox" name="piza" value="on"> pizza
+                        <input type="checkbox" name="french" value="on"> french fries </br>
+                        <label class="com" for="t2"> Address</label>
+                        <textarea  id="t2" rows="4" cols="5">
+                        </textarea> <br/>
+                        <input type="submit" id="t7" value="Submit"/>
+                        <input type="reset" id="t8" value="Reset"/>
+                    </div>
+                </fieldset>
+            </div>
+        </form>
+    </body>
+
